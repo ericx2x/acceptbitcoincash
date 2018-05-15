@@ -12,6 +12,7 @@ rpc:
       bitprim: no
 
     - name: disconnectnode
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#disconnectnode-address-nodeid
       abc: yes
       bu: yes
       xt: no

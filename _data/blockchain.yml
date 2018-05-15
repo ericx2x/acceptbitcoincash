@@ -66,6 +66,7 @@ rpc:
       bitprim: no
 
     - name: getmempoolentry
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#getmempoolentry-txid
       abc: yes
       bu: no
       xt: no
@@ -78,6 +79,7 @@ rpc:
       bitprim: no
 
     - name: getrawmempool
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#getrawmempool--verbose-
       abc: yes
       bu: yes
       xt: yes
@@ -120,6 +122,7 @@ rpc:
       bitprim: no
 
     - name: verifytxoutproof
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#verifytxoutproof-proof
       abc: no
       bu: yes
       xt: yes

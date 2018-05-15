@@ -11,6 +11,7 @@
 {%- endfor -%}
 {%- endif -%}
 </div>
-<a href="/" class="name" target="_blank" rel="noopener">{{ rpc.name }}</a>
+{%- assign url = rpc.url | default: '' -%}
+<a href="{% if url != '' %}{{url}}{% else %}{{ page.json_url | append: '#' | append: rpc.name }}{% endif %}" alt="{{rpc.name}}" class="name" target="_blank" rel="noopener">{{ rpc.name }}</a>
 {%- include exception.html website=rpc -%}
 </div>
