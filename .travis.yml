@@ -47,14 +47,14 @@ jobs:
       - echo ".git" > .dockerignore
       - echo $NEXT_BUILD_TAG
       - bundle exec rake docker:build
-      - docker tag acceptbitcoincash/acceptbitcoincash acceptbitcoincash/acceptbitcoincash:"$NEXT_BUILD_TAG"
+      - docker tag bigearth/spec.consortium.cash bigearth/spec.consortium.cash:"$NEXT_BUILD_TAG"
       - cp ./_site/js/main.js ./js/main.js
       deploy:
       - provider: script
         skip-cleanup: true
         script:
-        # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push acceptbitcoincash/acceptbitcoincash
-          docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"; docker push acceptbitcoincash/acceptbitcoincash
+        # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push bigearth/spec.consortium.cash
+          docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"; docker push bigearth/spec.consortium.cash
         on:
           all_branches: true # <== new!
           condition: $NEXT_BUILD_TAG != "latest"
@@ -63,7 +63,7 @@ jobs:
         github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
         fqdn: beta.acceptbitco.in
         keep-history: true
-        repo: acceptbitcoincash/acceptbitcoincash
+        repo: bigearth/spec.consortium.cash
         target_branch: gh-pages
         on:
           all_branches: true # <== new!

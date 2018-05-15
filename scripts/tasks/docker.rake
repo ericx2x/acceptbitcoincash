@@ -5,6 +5,6 @@ namespace :docker do
     puts `bundle exec jekyll build`
     rm_rf './_site/assets' # remove this if we move where our CSS live
     puts 'Building acceptbitcoincash docker image'
-    puts `docker build -t acceptbitcoincash/acceptbitcoincash .`
+    puts `docker build -t bigearth/spec.consortium.cash .`
   end
 end
