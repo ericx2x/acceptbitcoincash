@@ -65,7 +65,7 @@ namespace :add do
   end
 
   task :github do
-    url = 'https://api.github.com/repos/acceptbitcoincash/acceptbitcoincash/issues/'
+    url = 'https://api.github.com/repos/bigearth/spec.consortium.cash/issues/'
     url += value_prompt('issue number')
     uri = URI(url)
     puts 'pulling issue from repository'

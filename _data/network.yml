@@ -1,119 +1,107 @@
-websites:
+rpc:
     - name: addnode
-      url: https://www.aircanada.com/ca/en/aco/home.html
-      twitter: AirCanada
-      facebook: aircanada
-      img: aircanada.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: clearbanned
-      url: http://www.airfrance.com
-      twitter: airfrance
-      facebook: airfrance
-      img: airfrance.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: no
+      bitprim: no
 
-    - name: disconnectnode "[address]" [nodeid]
-      url: https://www.airnewzealand.co.nz
-      twitter: FlyAirNZ
-      facebook: AirNewZealand
-      img: airnz.png
-      bch: Yes
-      btc: No
+    - name: disconnectnode
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#disconnectnode-address-nodeid
+      abc: yes
+      bu: yes
+      xt: no
+      bitprim: no
+
+    - name: expedited
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
 
     - name: getaddednodeinfo
-      url: https://www.alaskaair.com
-      twitter: AlaskaAir
-      facebook: alaskaairlines
-      img: alaska.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: getconnectioncount
-      url: https://www.aa.com/
-      twitter: AmericanAir
-      facebook: AmericanAirlines
-      img: aa.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: getexcessiveblock
-      url: https://www.amtrak.com/
-      twitter: Amtrak
-      facebook: Amtrak
-      img: amtrak.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: no
+      bitprim: no
 
     - name: getnettotals
-      url: https://www.britishairways.com/
-      twitter: British_Airways
-      facebook: britishairways
-      img: ba.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: getnetworkinfo
-      url: https://btctrip.com/
-      img: btctrip.png
-      twitter: btctrip
-      email_address: contact@btctrip.com
-      bch: Yes
-      btc: Yes
-      othercrypto: Yes
-      keywords:
-      - bitpay
-      - gocoin
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: getpeerinfo
-      url: https://www.captaintrain.com
-      twitter: captaintrain
-      img: captain_train.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
+
+    - name: gettrafficshaping
+      abc: no
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: listbanned
-      url: https://www.cheapair.com/
-      twitter: cheapair
-      facebook: cheapair
-      img: cheapair.png
-      bch: Yes
-      btc: Yes
-      othercrypto: Yes
+      abc: yes
+      bu: yes
+      xt: no
+      bitprim: no
 
     - name: ping
-      url: https://www.clippercard.com
-      twitter: BayAreaClipper
-      facebook: BayAreaClipper
-      img: clipper.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
+
+    - name: pushtx
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
 
     - name: setban
-      url: https://www.delta.com/
-      twitter: Delta
-      facebook: delta
-      img: delta.png
-      bch: Yes
-      btc: No
-      
+      abc: yes
+      xt: no
+      bitprim: no
+
     - name: setexcessiveblock
-      url: https://destinia.com/
-      img: destinia.png
-      twitter: Destinia
-      facebook: Destinia.com
-      email_address: admincont@destinia.com
-      bch: Yes
-      btc: Yes
-      othercrypto: No
-      doc: https://twitter.com/Destinia/status/972053118555967488
+      abc: yes
+      xt: no
+      bitprim: no
 
     - name: setnetworkactive
-      url: https://www.bahn.com
-      twitter: DB_Bahn
-      facebook: DBPersonenverkehr
-      img: db.png
-      bch: Yes
-      btc: No
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
+
+    - name: settrafficshaping
+      abc: yes
+      bu: no
+      xt: yes
+      bitprim: no

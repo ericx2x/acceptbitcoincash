@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: acceptbitcoincash-ingress
+  name: spec-consortium-cash-ingress
   namespace: default
   annotations:
     kubernetes.io/tls-acme: "true"
@@ -9,16 +9,16 @@ metadata:
 spec:
   tls:
   - hosts:
-    - acceptbitcoin.cash
-    secretName: acceptbitcoincash-tls
+    - spec.consortium.cash
+    secretName: spec-consortium-cash-tls
   backend:
-    serviceName: acceptbitcoincash
+    serviceName: spec-consortium-cash
     servicePort: 90
   rules:
-  - host: acceptbitcoin.cash
+  - host: spec.consortium.cash
     http:
       paths:
       - path: /
         backend:
-          serviceName: acceptbitcoincash
+          serviceName: spec-consortium-cash
           servicePort: 90

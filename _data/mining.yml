@@ -1,50 +1,66 @@
-websites:
+rpc:
     - name: getblocktemplate
-      url: https://www.adormo.com/
-      img: adormo.png
-      bch: Yes
-      btc: Yes
-      othercrypto: No
-      twitter: adormonews
-      facebook: Adormo
-      keywords:
-      - bitpay
-      - bip70
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
+
+    - name: getblockversion
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
+
+    - name: getminercomment
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
 
     - name: getmininginfo
-      url: https://www.airbnb.com/
-      img: airbnb.png
-      bch: Yes
-      twitter: airbnb
-      facebook: AirBNB
-      
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
+
+    - name: getminingmaxblock
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
+
     - name: getnetworkhashps
-      url: https://www.cryptocribs.com/
-      img: cryptocribs.png
-      twitter: CryptoCribs
-      facebook: cryptocribs
-      email_address: info@cryptocribs.com
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: prioritisetransaction
-      url: https://www.liberstad.com/
-      img: liberstad.png
-      twitter: liberstad
-      facebook: liberstad.english
-      email_address: liberstad@gmail.com
-      bch: yes
-      btc: yes
-      othercrypto: no
-      
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
+
+    - name: setblockversion
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
+
+    - name: setminercomment
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
+
+    - name: setminingmaxblock
+      abc: no
+      bu: yes
+      xt: no
+      bitprim: no
+
     - name: submitblock
-      url: https://www.riddelltravel.com
-      img: riddelltravel.png
-      email_address: bookings@riddelltravel.com
-      bch: Yes
-      btc: No
-      othercrypto: Yes
-      doc: https://www.reddit.com/r/btc/comments/88yb6o/crypto_giving_you_sleepless_nights_rather_go_on_a/
-      exceptions: 
-        text: "Bitcoin Cash address will be provided once you've decided on your preferred package."
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes

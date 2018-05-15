@@ -1,12 +1,24 @@
-websites:
+rpc:
+    - name: generate
+      abc: no
+      bu: yes
+      xt: yes
+      bitprim: no
+
     - name: generatetoaddress
-      url: https://www.adormo.com/
-      img: adormo.png
-      bch: Yes
-      btc: Yes
-      othercrypto: No
-      twitter: adormonews
-      facebook: Adormo
-      keywords:
-      - bitpay
-      - bip70
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
+
+    - name: getgenerate
+      abc: no
+      bu: yes
+      xt: yes
+      bitprim: no
+
+    - name: setgenerate
+      abc: no
+      bu: yes
+      xt: yes
+      bitprim: no

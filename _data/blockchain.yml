@@ -1,174 +1,129 @@
-websites:
+rpc:
     - name: getbestblockhash
-      url: https://www.adormo.com/
-      img: adormo.png
-      bch: Yes
-      btc: Yes
-      othercrypto: No
-      twitter: adormonews
-      facebook: Adormo
-      keywords:
-      - bitpay
-      - bip70
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
 
     - name: getblock
-      url: https://www.airbnb.com/
-      img: airbnb.png
-      bch: Yes
-      twitter: airbnb
-      facebook: AirBNB
-      
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
+
     - name: getblockchaininfo
-      url: https://www.cryptocribs.com/
-      img: cryptocribs.png
-      twitter: CryptoCribs
-      facebook: cryptocribs
-      email_address: info@cryptocribs.com
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
 
     - name: getblockcount
-      url: https://www.liberstad.com/
-      img: liberstad.png
-      twitter: liberstad
-      facebook: liberstad.english
-      email_address: liberstad@gmail.com
-      bch: yes
-      btc: yes
-      othercrypto: no
-      
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
+
     - name: getblockhash
-      url: https://www.riddelltravel.com
-      img: riddelltravel.png
-      email_address: bookings@riddelltravel.com
-      bch: Yes
-      btc: No
-      othercrypto: Yes
-      doc: https://www.reddit.com/r/btc/comments/88yb6o/crypto_giving_you_sleepless_nights_rather_go_on_a/
-      exceptions: 
-        text: "Bitcoin Cash address will be provided once you've decided on your preferred package."
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
 
     - name: getblockheader
-      url: https://breta.weebly.com/
-      img: svbreta.png
-      twitter: RoyWessbecher
-      email_address: BretaNet00@hotmail.com
-      region: na
-      bch: Yes
-      btc: Yes
-      othercrypto: No
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
 
     - name: getchaintips
-      url: http://maxkite.wixsite.com/vvedene
-      email_address: max_kite@mail.ru
-      region: eu
-      country: RU
-      city: Yaroslavl
-      bch: Yes
-      btc: Yes
-      othercrypto: Yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: yes
 
     - name: getchaintxstats
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
 
     - name: getdifficulty
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: getmempoolancestors
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
 
     - name: getmempooldescendants
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
 
-    - name: getmempoolentry txid
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+    - name: getmempoolentry
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#getmempoolentry-txid
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
 
     - name: getmempoolinfo
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
-    - name: getrawmempool ( verbose )
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+    - name: getrawmempool
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#getrawmempool--verbose-
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: gettxout
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: gettxoutproof
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: gettxoutsetinfo
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
 
     - name: preciousblock
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
 
     - name: pruneblockchain
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: no
+      xt: no
+      bitprim: no
 
     - name: verifychain
-      url: https://www.thewihn.com
-      facebook: dcinternhousing
-      img: wihn.png
-      bch: yes
-      btc: yes
-      othercrypto: yes
+      abc: yes
+      bu: yes
+      xt: yes
+      bitprim: no
+
+    - name: verifytxoutproof
+      url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md#verifytxoutproof-proof
+      abc: no
+      bu: yes
+      xt: yes
+      bitprim: no

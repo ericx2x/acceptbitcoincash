@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: acceptbitcoincash
+  name: spec.consortium.cash
   namespace: default
 spec:
   ports:
     - port: 90
       targetPort: 80
   selector:
-    service: acceptbitcoincash
+    service: spec.consortium.cash
   type: NodePort
