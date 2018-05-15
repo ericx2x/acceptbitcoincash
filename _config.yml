@@ -23,6 +23,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       # Page Variables
+      json_url: https://github.com/bitcoincashorg/bitcoincash.org/blob/master/spec/JSON-RPC.md 
       image: img/logo.png
       link_tweet: "Tweet to @TWITTERHANDLE"
       link_facebook: "Write on @FACEBOOKHANDLE's wall"
