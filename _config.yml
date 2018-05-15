@@ -7,7 +7,7 @@ author: n9jd34x04l151ho4 + topolino + kenman345
 description:
     A vocabulary and associated APIs for Bitcoin Cash
 url: https://spec.consortium.cash
-repo: https://github.com/bigearth/spec.bitbox.earth
+repo: https://github.com/bigearth/spec.consortium.cash
 img: img/logo.png
 lang: en-US
 sass:
