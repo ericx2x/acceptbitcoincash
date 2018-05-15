@@ -1,4 +1,4 @@
-Contributing to acceptBitcoin.Cash
+Contributing to spec.consortium.cash
 =======================
 
 ## Introduction
@@ -7,7 +7,7 @@ First off, **thanks for your interest in contributing!** Your help will foster g
 
 ### _A quick note..._
 
-The site maintainers do not endorse nor confirm the legitimacy of any of the listings linked to on this site. While we try our best to verify the information submitted, it's possible that we may miss something, or a service may change/information becomes outdated. If you notice anything, please [raise a new issue](https://github.com/acceptbitcoincash/acceptbitcoincash/issues/new).
+The site maintainers do not endorse nor confirm the legitimacy of any of the listings linked to on this site. While we try our best to verify the information submitted, it's possible that we may miss something, or a service may change/information becomes outdated. If you notice anything, please [raise a new issue](https://github.com/bigearth/spec.consortium.cash/issues/new).
 
 Adding a site is easy. Read below for the basics, and if you're more technically-inclined, detailed instructions are further down this document. Regardless, the only thing **you need** is **a Github account**.
 
@@ -15,7 +15,7 @@ Adding a site is easy. Read below for the basics, and if you're more technically
 
 We offer two easy ways to submit a new site to be listed.
 1. Use the [Merchant/Website Addition Request](https://AcceptBitcoin.Cash/add) form to the best of your ability.
-2. [Open a new issue](https://github.com/acceptbitcoincash/acceptbitcoincash/issues/new) and fill out the template that's provided as a placeholder. Try to fill out all of the fields as accurately as possible. We are looking for the following:
+2. [Open a new issue](https://github.com/bigearth/spec.consortium.cash/issues/new) and fill out the template that's provided as a placeholder. Try to fill out all of the fields as accurately as possible. We are looking for the following:
 
 - `name` -- Name of merchant/site
 - `url` -- URL of merchant/site (http*s* preferred)
@@ -77,7 +77,7 @@ everything for you.
 ### Using Bundler
 
 1. To install Bundler, just run `gem install bundler`.
-2. Install dependencies in the [Gemfile](https://github.com/acceptbitcoincash/acceptbitcoincash/blob/master/Gemfile), `bundle install`.
+2. Install dependencies in the [Gemfile](https://github.com/bigearth/spec.consortium.cash/blob/master/Gemfile), `bundle install`.
 3. Run Jekyll: `bundle exec jekyll serve --watch`. The `--watch` is optional and
    makes Jekyll watch for file changes.
 

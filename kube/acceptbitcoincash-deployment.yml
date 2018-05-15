@@ -3,18 +3,18 @@ kind: Deployment
 metadata:
   namespace: default
   labels:
-    service: acceptbitcoincash
-  name: acceptbitcoincash
+    service: spec-consortium-cash
+  name: spec-consortium-cash
 spec:
   replicas: 2
   template:
     metadata:
       labels:
-        service: acceptbitcoincash
+        service: spec-consortium-cash
     spec:
       containers:
-      - image: acceptbitcoincash/acceptbitcoincash
-        name: acceptbitcoincash
+      - image: bigearth/spec.consortium.cash
+        name: spec-consortium-cash
         ports:
         - containerPort: 80
         resources:
